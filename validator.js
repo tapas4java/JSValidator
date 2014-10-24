@@ -31,7 +31,7 @@ var passwordRegex = /^.{6,}$/;
 /*
  * All validation rules matching logic are here
  */
-validator = {
+var validator = {
 	
 	/**
 	 * This function will validate weather provided text is blank or not
